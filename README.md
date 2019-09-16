@@ -15,3 +15,5 @@ There are two goals to this project:
 
 ## Approach
 Python's scikit-surprise library was used to predict the rating of the movies using the SVD algorithm (RMSE = 0.98). Pearson's Correlation was used to find the correlation between movies and further recommend similar movies.
+
+The machine learning model was serialized and saved in a .sav file using pickle. The pickle file can be loaded to make future predictions without the need to train the model again.
